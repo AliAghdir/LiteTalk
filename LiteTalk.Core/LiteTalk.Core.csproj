@@ -11,4 +11,8 @@
     <Folder Include="Services\" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\LiteTalk.Data\LiteTalk.Data.csproj" />
+  </ItemGroup>
+
 </Project>
