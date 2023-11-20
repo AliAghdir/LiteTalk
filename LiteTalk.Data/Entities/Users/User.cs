@@ -13,10 +13,13 @@ namespace LiteTalk.Data.Entities.Users
         [MaxLength(110)]
         public string Avatar { get; set; }
 
+
+
         #region Relation
-        public ICollection<Chat> Chats { get; set; }
         public ICollection<ChatGroup> ChatGroups { get; set; }
+        public ICollection<Chat> Chats { get; set; }
         public ICollection<UserRole> UserRoles { get; set; }
+
         #endregion
     }
 }

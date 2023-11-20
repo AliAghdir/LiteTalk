@@ -11,15 +11,19 @@ namespace LiteTalk.Data.Entities.Chats
 {
     public class Chat:BaseEntity
     {
-        public string TextBody { get; set; }
+
+        public string ChatBody { get; set; }
         public long UserId { get; set; }
-        public long ChatGroupId { get; set; }
+        public long GroupId { get; set; }
+
 
         #region Relations
         [ForeignKey("UserId")]
         public User User { get; set; }
         [ForeignKey("GroupId")]
-        public ChatGroup ChatGroup { get; set; }
+        public ChatGroup CharGroup { get; set; }
+
+
         #endregion
     }
 }
