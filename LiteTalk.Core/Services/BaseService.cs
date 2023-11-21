@@ -5,7 +5,7 @@ using System.Collections.Concurrent;
 using System.Data;
 using System.Data.Common;
 
-namespace CoreLayer.Services
+namespace LiteTalk.Core.Services
 {
     public abstract class BaseService
     {

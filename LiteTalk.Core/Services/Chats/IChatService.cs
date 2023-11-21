@@ -1,6 +1,6 @@
 ﻿using LiteTalk.Data.Entities.Chats;
 
-namespace CoreLayer.Services.Chats
+namespace LiteTalk.Core.Services.Chats
 {
     public interface IChatService
     {

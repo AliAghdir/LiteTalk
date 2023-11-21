@@ -1,10 +1,11 @@
-﻿using DataLayer.Context;
+﻿using LiteTalk.Core.Services;
+using LiteTalk.Data.Context;
 
-namespace CoreLayer.Services.Roles
+namespace LiteTalk.Core.Services.Roles
 {
-    public class RoleService:BaseService,IRoleService
+    public class RoleService : BaseService, IRoleService
     {
-        public RoleService(EchatContext context) : base(context)
+        public RoleService(LiteTalkContext context) : base(context)
         {
         }
     }
